@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Near-spring4/static/css/main.dc4880ea.chunk.css",
-    "main.js": "/Near-spring4/static/js/main.0f58231f.chunk.js",
-    "main.js.map": "/Near-spring4/static/js/main.0f58231f.chunk.js.map",
+    "main.js": "/Near-spring4/static/js/main.b411bb21.chunk.js",
+    "main.js.map": "/Near-spring4/static/js/main.b411bb21.chunk.js.map",
     "runtime-main.js": "/Near-spring4/static/js/runtime-main.8c5daa0c.js",
     "runtime-main.js.map": "/Near-spring4/static/js/runtime-main.8c5daa0c.js.map",
-    "static/js/2.1a1b02f9.chunk.js": "/Near-spring4/static/js/2.1a1b02f9.chunk.js",
-    "static/js/2.1a1b02f9.chunk.js.map": "/Near-spring4/static/js/2.1a1b02f9.chunk.js.map",
+    "static/js/2.3a09f9bb.chunk.js": "/Near-spring4/static/js/2.3a09f9bb.chunk.js",
+    "static/js/2.3a09f9bb.chunk.js.map": "/Near-spring4/static/js/2.3a09f9bb.chunk.js.map",
     "index.html": "/Near-spring4/index.html",
     "static/css/main.dc4880ea.chunk.css.map": "/Near-spring4/static/css/main.dc4880ea.chunk.css.map",
-    "static/js/2.1a1b02f9.chunk.js.LICENSE.txt": "/Near-spring4/static/js/2.1a1b02f9.chunk.js.LICENSE.txt"
+    "static/js/2.3a09f9bb.chunk.js.LICENSE.txt": "/Near-spring4/static/js/2.3a09f9bb.chunk.js.LICENSE.txt",
+    "static/media/near-wallet-icon.png": "/Near-spring4/static/media/near-wallet-icon.9a531c41.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c5daa0c.js",
-    "static/js/2.1a1b02f9.chunk.js",
+    "static/js/2.3a09f9bb.chunk.js",
     "static/css/main.dc4880ea.chunk.css",
-    "static/js/main.0f58231f.chunk.js"
+    "static/js/main.b411bb21.chunk.js"
   ]
 }
