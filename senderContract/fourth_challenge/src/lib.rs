@@ -3,7 +3,7 @@ use near_sdk::serde::{Serialize, Deserialize};
 use near_sdk::{env, near_bindgen};
 use near_sdk::collections::Vector;
 
-pub const MESSAGE_LIMIT:u8 = 10;
+pub const MESSAGE_LIMIT:u8 = 100;
 
 #[near_bindgen]
 #[derive(BorshDeserialize, BorshSerialize)]

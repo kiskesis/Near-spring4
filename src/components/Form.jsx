@@ -1,11 +1,12 @@
 import React from 'react';
 import Big from 'big.js';
 
-export default function Form({ onSubmit, accountId, account }) {
+export default function Form({ onSubmit, account }) {
+  console.log('account', account);
   return (
     <form onSubmit={onSubmit}>
       <fieldset id="fieldset">
-        <p>Sign the guest book, { accountId }!</p>
+        <p>Sign the guest book, { account.account_id }!</p>
         <p className="highlight">
           <label htmlFor="message">Message:</label>
           <input
