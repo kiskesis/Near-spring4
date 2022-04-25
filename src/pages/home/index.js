@@ -1,10 +1,17 @@
-import 'regenerator-runtime/runtime'
-import React from 'react'
+import React, { Fragment } from "react";
 
-import './index.css'
-import Login from "../login";
-import Mint from "../mint";
+import Content from "../../components/Content";
+import { WalletSelectorContextProvider } from "../../contexts/WalletSelectorContext";
 
-export default function Home() {
-    return !window.walletConnection.isSignedIn() ? <Login /> : <Mint />
-}
+const Home = () => {
+    return (
+        <Fragment>
+            <h1>NEAR Guest Book</h1>
+            <WalletSelectorContextProvider>
+                <Content />
+            </WalletSelectorContextProvider>
+        </Fragment>
+    );
+};
+
+export default Home;

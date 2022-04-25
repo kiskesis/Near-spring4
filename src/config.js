@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'nftexample.nfspring.testnet'
+const CONTRACT_NAME = process.env.CONTRACT_NAME || 'fourthchallenge.testnet'
 
 function getConfig(env) {
   switch (env) {
