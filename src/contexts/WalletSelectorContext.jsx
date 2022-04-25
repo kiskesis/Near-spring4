@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import NearWalletSelector from "@near-wallet-selector/core";
 import { setupNearWallet } from "@near-wallet-selector/near-wallet";
 import { setupSender } from "@near-wallet-selector/sender";
+import nearWalletIconUrl from "@near-wallet-selector/near-wallet/assets/near-wallet-icon.png";
+import senderWalletIconUrl from "@near-wallet-selector/sender/assets/sender-icon.png";
 
 const WalletSelectorContext =
   React.createContext(null);
@@ -40,8 +42,12 @@ export const WalletSelectorContextProvider = ({ children }) => {
       network: "testnet",
       contractId: "fourthchallenge.testnet",
       wallets: [
-        setupNearWallet(),
-        setupSender(),
+        setupNearWallet({
+          iconUrl: nearWalletIconUrl
+        }),
+        setupSender({
+          iconUrl: senderWalletIconUrl
+        }),
       ],
     })
       .then((instance) => {
